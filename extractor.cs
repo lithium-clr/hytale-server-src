@@ -17,7 +17,7 @@ try
         return;
     }
 
-    var destinationPath = Path.Combine(Environment.CurrentDirectory, "src");
+    var destinationPath = Path.Combine(Environment.CurrentDirectory, "extracted");
 
     if (Directory.Exists(destinationPath))
         Directory.Delete(destinationPath, true);
