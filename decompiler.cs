@@ -46,7 +46,7 @@ static async Task DecompileClassFilesParallelAsync(string srcFolder)
 
     var process = new Process();
     process.StartInfo.FileName = "java";
-    process.StartInfo.Arguments = $"-jar \"{vineflower}\" \"{srcFolder}\" decompiled_src";
+    process.StartInfo.Arguments = $"-jar \"{vineflower}\" \"{srcFolder}\" src";
     process.StartInfo.UseShellExecute = false;
     process.StartInfo.RedirectStandardOutput = true;
     process.StartInfo.RedirectStandardError = true;
