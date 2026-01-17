@@ -7,8 +7,8 @@ Built-By:
 Implementation-Branch: release
 Implementation-Build: NoJar
 Implementation-Patchline: release
-Implementation-Revision-Id: c04fdfe1050a70829ff6aaf01da2d7d679220f86
+Implementation-Revision-Id: 4b0f30090ab99c9ce84652006e40c825c555ad98
 Implementation-Title: Server
 Implementation-Vendor-Id: com.hypixel.hytale
-Implementation-Version: 2026.01.15-c04fdfe10
+Implementation-Version: 2026.01.17-4b0f30090
 
