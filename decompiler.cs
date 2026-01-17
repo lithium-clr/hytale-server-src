@@ -15,7 +15,7 @@ rootCommand.Description = "Parallel Java .class decompiler using Vineflower";
 
 ParseResult parseResult = rootCommand.Parse(args);
 
-var src = Path.Combine(Environment.CurrentDirectory, "src");
+var src = Path.Combine(Environment.CurrentDirectory, "extracted");
 
 if (parseResult.Errors.Count is 0 && parseResult.GetValue(hytaleOnlyOption) is bool hytaleOnly)
 {
